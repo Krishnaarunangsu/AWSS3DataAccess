@@ -1,6 +1,7 @@
 from re import T
 import boto3
 
+
 s3_resource=boto3.resource('s3')
 print(f's3_resource is:{s3_resource}')
 print('***************************************')

@@ -13,6 +13,6 @@ try:
     print(f'File Exists:{file_name}')
     print('****************************************')
     print(f'File Content:\n{file_content}')    
-except FileExistsError as fe:
-    print('File Not Found:{fe}')    
+except FileNotFoundError as fe:
+    print('File Not Found:{fe.message}')    
 

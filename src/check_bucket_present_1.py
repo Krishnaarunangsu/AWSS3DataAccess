@@ -12,4 +12,4 @@ print(f'Bucket list length is:{size}')
 print('***************************************')
 for bucket in total_s3_buckets:
     print(f'Bucket Name is:{bucket.name}')
-    print('######################################')
+    print('######################################Good*********************')

@@ -17,4 +17,4 @@ records = csv.reader(data) #4
 headers = next(records) #5
 print('headers: %s' % (headers))
 for eachRecord in records: #6
-     print(eachRecord)
+  print(eachRecord)

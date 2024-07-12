@@ -16,7 +16,7 @@ except botocore.exceptions.ClientError as err:
         request_id=err.response['ResponseMetadata']['RequestId']
         http_code=err.response['ResponseMetadata']['HTTPStatusCode']
         print(f'Error Message: {error_message}')
-        print('Request ID: {request_id}')
-        print('Http code: {http_code}')
+        print(f'Request ID: {request_id}')
+        print(f'Http code: {http_code}')
     else:
        raise err
